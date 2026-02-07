@@ -1,0 +1,9 @@
+# Minimal pip requirements (optional)
+# On Raspberry Pi OS, prefer installing OpenCV + tflite-runtime via apt for best performance:
+#   sudo apt update
+#   sudo apt install -y python3-opencv python3-tflite-runtime python3-pil python3-flask
+#
+# If you use a virtualenv on x86_64 / dev machine, these pip wheels may work:
+flask>=2.3
+pillow>=10.0
+numpy>=1.24

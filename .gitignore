@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Logs & runtime outputs
+*.log
+out/
+outputs/
+runs/
+
+# Large model files (keep out of git by default)
+models/
+*.tflite
+*.onnx
+*.pt
+*.pth
+*.pb
+*.zip
+*.tar
+*.tar.gz
+
+# Captures (usually large) — ignored by default
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# Keep documentation/demo assets tracked
+!docs/demos/*.gif
+!docs/assets/*.jpg
+!docs/assets/*.png
